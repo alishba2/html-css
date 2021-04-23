@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+    grid-gap: 20px;
+    background-color: blue;
+   
+    
+    
+}
+
+.grid-item{
+    background-color: cadetblue;
+    color: black;
+    text-align: center;
+    padding:20px;
+    border: black 1px solid;
+} 

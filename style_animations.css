@@ -1,0 +1,25 @@
+div{
+    border: 2px solid brown;
+    background-color: teal;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation-duration: 4s;
+    animation-name: animie;
+    animation-delay: 2s;
+    border: 2px solid black;
+}
+ 
+/* div:hover{
+    transform: translate(120px ,20px)
+} */
+
+/* Animations */
+@keyframes animie{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 300px; left: 0px;}
+    50%{background-color: blue; top: 300px; left: 0;}
+    75%{background-color: green; top: 0; left: 300px;}
+    100%{background-color: honeydew; top: 0; left: 0;}
+ 
+}

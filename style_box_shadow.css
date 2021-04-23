@@ -1,0 +1,44 @@
+a:hover{
+    background: black;
+    color: wheat;
+
+}
+body{
+    /* background:black; */
+    color: teal;
+}
+#wrapper{
+    background-color: teal;
+    color: white;
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+}
+header{
+    
+    text-align: center;
+    height: auto;
+
+}
+#horzNab:hover{
+    display: block;
+    background-color: black;
+    color: white;
+}
+#para_1:after{
+    /* word-spacing: 10px; */
+    content: "@#@#@!*@";
+}
+
+#para_2{
+    letter-spacing: 10px;
+}
+
+.P{
+    background-color: wheat;
+    color: tomato;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
